@@ -1,0 +1,20 @@
+Summary of changes from v0.2.0 to v0.2.1
+============================================
+
+Jan Roehrich <jan.roehrich@iao.fhg.de>:
+  o fixed incomplete URLs bug (I hope so)
+  o fixed php error if there's only one root-page and one domain entry
+
+Summary of changes from v0.1.0 to v0.2.0
+============================================
+
+Jan Roerich <jan.roehrich@iao.fhg.de>:
+  o Introduced this changelog
+  o different subtrees with same title configurations are 
+     now handled correctly
+  o HTTP_HOST var is now used to detect the target domain
+     (more than one root-page is possible), but link building 
+     doesn't work yet in this case
+  o All configuration options changed from "speakingURLs" do "speakingURIs"
+  o now inter-domain linking works if Domain records are only on the level of root-pages
+

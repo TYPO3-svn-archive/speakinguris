@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /~roehrich/speaking
+RewriteRule typo3/.*$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$  /~roehrich/speaking/index.php
+
